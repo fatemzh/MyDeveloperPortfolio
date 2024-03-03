@@ -1,5 +1,5 @@
 .experience-container{
-    margin: 4rem 0;
+    margin: 4.5rem 0;
     position: relative;
 }
 
@@ -7,6 +7,7 @@
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 3rem;
+    margin-left: 40px;
 }
 
 .arrow-left,
@@ -41,6 +42,9 @@
 }
 
 @media (max-width: 767px) {
+    .experience-container{  
+        margin: 10px;
+    }
     .experience-container h5{
         font-size: 1.3rem;
         margin-bottom: 2rem;
