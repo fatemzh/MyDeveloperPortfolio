@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import './Navbar.css';
 import MobileNav from "../MobileNav/MobileNav.jsx";
 import logo from '../../assets/images/logo.png'; 
-
 const Navbar = () => {
 
     const [openMenu, setOpenMenu] = useState(false);
