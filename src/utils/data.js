@@ -38,3 +38,35 @@ export const SKILLS = [
         ]
     }
 ];
+
+export const WORK_EXPERIENCE = [
+    {
+        title:"Senior Frontend Developer at Google",
+        date:"January 2012 - Present",
+        responsabilities : [
+            "Led a team of frontend developers to create a new user interface for the company's flagship product.",
+            "Implemented advanced CSS and JavaScript animations and transitions to enhance the overall user experience.",
+            "Collaborated with UI/UX designers to translate wireframes into high-fidelity prototypes, ensuring a seamless user journey.",
+            "Introduced and intergrated vue.js into the company's existing codebase, resulting in a significant boost in development speed and code maintainability."
+        ],
+    },
+    {
+        title:"Frontend Developer at Facebook",
+        date:"January 2010 - January 2012",
+        responsabilities : [
+            "Developed and maintained the frontend of multiple Facebook products, including the News Feed, Messenger, and Groups.",
+            "Implemented responsive design principles to ensure optimal user experience across different devices and screen sizes.",
+            "Collaborated with backend developers to ensure data integrity and seamless integration of new features.",
+            "Participated in code reviews and provided constructive feedback to other developers."
+        ]
+    },
+    {
+        title:"Frontend intern at Web studio",
+        date:"January 2009 - January 2010",
+        responsabilities : [
+            "Developed and maintained a variety of web applications, including a photo gallery, an e-commerce store, and a social networking platform.",
+            "Collaborated with backend developers to ensure data integrity and seamless integration of new features.",
+            "Participated in code reviews and provided constructive feedback to other developers.",
+        ]
+    }
+]
