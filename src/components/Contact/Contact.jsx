@@ -14,7 +14,7 @@ const Contact = () => {
                     text="abidfatem@gmail.com"
                 />
                 <ContactInfoCard
-                    iconUrl={"../../assets/images/icons8-github.svg"}
+                    iconUrl={"../../assets/images/github.png"}
                     text="https://github.com/fatemzh"
                 />
             </div>

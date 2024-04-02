@@ -12,7 +12,7 @@ import logoGithub from "../../assets/images/github.png"
 import logoPhp from "../../assets/images/php.png"
 import logoNPM from "../../assets/images/npm.png"
 import logoNode from "../../assets/images/nodejs.png"
-import logoFigma from "../../assets/images/figma.png"
+import logoElectron from "../../assets/images/electron.png"
 import logoMySQL from "../../assets/images/mysql.png"
 import Insomnia from "../../assets/images/insomnia.png"
 
@@ -22,9 +22,10 @@ const Hero = () => {
       <section className='hero'>
         <div className='hero-container'>
             <div className='hero-content'>
-                <h2>Building Digital Experiences that inspire</h2>
+                <h2>Abid Fatima | Développeuse Frontend</h2>
+                <br />
                 <p>
-                    Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions
+                Ma mission : vous offrir des solutions web sur-mesure qui non seulement captivent vos visiteurs mais boostent également votre présence en ligne. En collaborant avec moi, vous choisissez un partenaire dédié à transformer vos idées en expériences web stimulantes et engageantes.
                 </p>
             </div>
             <div className='hero-img'>
@@ -59,8 +60,8 @@ const Hero = () => {
                     <p>TailwindCSS</p>
                 </div>
                 <div className='tech-icon'>
-                    <img src={logoFigma} alt="" />
-                    <p>Figma</p>
+                    <img src={logoElectron} alt="" />
+                    <p>Electron</p>
                 </div>
                 <div className='tech-icon'>
                     <img src={logoGit} alt="" />

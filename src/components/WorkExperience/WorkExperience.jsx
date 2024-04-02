@@ -35,16 +35,20 @@ const WorkExperience = () => {
 
   return (
     <section className='experience-container'>
-        <h5>Work Experience</h5>
+        <h5>Projets personnels</h5>
 
         <div className='experience-content'>
 
             <div className='arrow-right'>
-                <span class="material-symbols-outlined" onClick={slideRight}>chevron_right</span>
+                <span class="material-symbols-outlined" onClick={slideRight}>
+                    chevron_right
+                </span>
             </div>
 
             <div className='arrow-left'>
-                <span class="material-symbols-outlined" onClick={slideLeft}>chevron_left</span>
+                <span class="material-symbols-outlined" onClick={slideLeft}>
+                    chevron_left
+                </span>
             </div>
 
             <Slider ref={sliderRef}{...settings}>

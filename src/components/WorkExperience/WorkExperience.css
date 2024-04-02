@@ -27,6 +27,11 @@
     cursor: pointer;
 }
 
+.arrow-left:hover,
+.arrow-right:hover{
+    background: #cabdfa;
+}
+
 .arrow-left span,
 .arrow-right span{
     font-size: 2rem;
