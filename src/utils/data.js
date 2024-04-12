@@ -15,7 +15,7 @@ import Insomnia from "../assets/images/insomnia.png"
 import logoElectron from "../assets/images/electron.png"
 import logoVite from "../assets/images/vite.png"
 import logoC from "../assets/images/c_-removebg-preview.png"
-
+import kanban from "../assets/images/kanbanboard.png"
 export const SKILLS = [
     {
         title: "Frontend",
@@ -79,6 +79,8 @@ export const WORK_EXPERIENCE = [
             {logo: logoGithub, name:"Github"},
         ],
         githubLink: "https://github.com/fatemzh/kanbanboard-electron",
+        projectImg: kanban,
+
     },
     {
         title:"Portfolio pour développeur",
@@ -97,6 +99,8 @@ export const WORK_EXPERIENCE = [
             {logo: logoGithub, name:"Github"},
         ],
         githubLink : "https://github.com/fatemzh/my-react-portfolio/tree/main",
+        projectImg: kanban,
+
     },
     {
         title:"Application Share With Me pour les férus de Lecture",
@@ -116,6 +120,8 @@ export const WORK_EXPERIENCE = [
             {logo: logoGithub, name:"Github"},
         ],
         githubLink:"https://github.com/fatemzh/Book-blog",
+        projectImg: kanban,
+
     },
     {
         title:"Application Pokemon API REST",
@@ -133,6 +139,8 @@ export const WORK_EXPERIENCE = [
             {logo: logoGithub, name:"Github"},
         ],
         githubLink : "https://github.com/fatemzh/NODE-POKEMON-API",
+        projectImg: kanban,
+
     },
     {
         title:"Portfolio pour auteur/consultant",
@@ -150,7 +158,9 @@ export const WORK_EXPERIENCE = [
             {logo: logoFigma, name:"Figma"},      
             {logo: logoGithub, name:"Github"},
         ],
-        githubLink:"https://github.com/fatemzh/sunil-portfolio"
+        githubLink:"https://github.com/fatemzh/sunil-portfolio",
+        projectImg: kanban,
+
     },
     {
         title:"Cosy Gaming Blog",
@@ -168,7 +178,9 @@ export const WORK_EXPERIENCE = [
             {logo: logoFigma, name:"Figma"},
             {logo: logoGithub, name:"Github"},
         ],
-        githubLink : "https://fatemzh.github.io/CosyGaming/"
+        githubLink : "https://fatemzh.github.io/CosyGaming/",
+        projectImg: kanban,
+
     },
     {
         title:"Jeu Pac-Man en mode console",
@@ -183,8 +195,9 @@ export const WORK_EXPERIENCE = [
             {logo: logoC},
             {logo: logoFigma, name:"Figma"},
             {logo: logoGithub, name:"Github"},
-        ]
-        //AJOUTER LINK
+        ],
+        githubLink: "https://github.com/cyberkathleen/pacman-made-simple",
+        projectImg: kanban,
     },
     {
         title:"Site pour les Portes Ouvertes 2022 de l'ETML",
@@ -204,5 +217,6 @@ export const WORK_EXPERIENCE = [
             {logo: logoGithub, name:"Github"},
         ],
         githubLink:"https://fatemzh.github.io/PO-ETML/",
+        projectImg: kanban,
     },
 ]
