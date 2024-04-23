@@ -38,6 +38,7 @@ const WorkExperience = () => {
         <h5>Projets personnels</h5>
 
         <div className='experience-content'>
+
             <div className='arrow-right'>
                 <span class="material-symbols-outlined" onClick={slideRight}>
                     chevron_right
