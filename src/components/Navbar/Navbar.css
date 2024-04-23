@@ -100,6 +100,10 @@
     transition: all 0.4s ease;
 }
 
+.menu-btn button{
+    display: none;
+}
+
 .menu-btn:hover{
     color: #a993fe;
     background: #000;

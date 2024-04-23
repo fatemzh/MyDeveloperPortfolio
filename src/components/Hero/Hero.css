@@ -93,6 +93,7 @@
     width: 3rem;
     height: auto;
     transition: all 0.3s ease;
+    margin-top: 10px;
 }
 
 .hero-img > div > img:hover,

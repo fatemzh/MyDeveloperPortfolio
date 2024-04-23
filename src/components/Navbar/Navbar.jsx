@@ -17,20 +17,17 @@ const Navbar = () => {
                     <img className="logo" src={logo} alt="" />
                     <ul>
                         <li>
-                            <a className="menu-item" href="">Home</a>
+                            <a className="menu-item" id="#Hero">Home</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="">Skills</a>
+                            <a className="menu-item" href="#Skills">Skills</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="">Work Experience</a>
+                            <a className="menu-item" href="#WorkExperience">Projets</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="#contact-container">Contact Me</a>
+                            <a className="menu-item" href="#Contact">Contact Me</a>
                         </li>
-                        <button className="contact-btn" onClick={()=>{}}>
-                            Hire Me
-                        </button>
                     </ul>
                     <button className="menu-btn" onClick={toggleMenu}>
                         <span
