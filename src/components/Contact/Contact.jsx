@@ -1,37 +1,26 @@
-import React, { useState } from "react"
-import contact1 from "../../assets/images/contactMe.jpg"
+import React, { useState, useRef } from "react"
+import emailjs from '@emailjs/browser';
 import "./Contact.css"
 
 const Contact = () => {
-  const [data, setData] = useState({
-    fullname: "",
-    phone: "",
-    email: "",
-    subject: "",
-    message: "",})
 
-  const InputEvent = (event) => {
-    const { name, value } = event.target
-
-    setData((preVal) => {
-      return {
-        ...preVal,
-        [name]: value,
-      }
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs
+    .sendForm('service_x76dbv9', 'template_silei2r', form.current, {
+      publicKey: '2aZJwtBOGIBI1-d3r',
     })
-  }
+    .then(
+      () => {
+        console.log('SUCCESS!');
+      },
+      (error) => {
+        console.log('FAILED...', error.text);
+      },
+    );
+  };
 
-  const formSubmit = (event) => {
-    event.preventDefault()
-    alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
-    )
-  }
   return (
     <>
       <section className='Contact'>
@@ -80,22 +69,21 @@ const Contact = () => {
               </div>
             </div>
             <div className='right'>
-              <form onSubmit={formSubmit}>
+              <form onSubmit={sendEmail} ref={form}>
                   <div className='input'>
-                    <span>YOUR NAME</span>
-                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} />
+                    <span>NOM</span>
+                    <input type='text' name='user_name'/>
                   </div>
                   <div className='input'>
                     <span>EMAIL </span>
-                    <input type='email' name='email' value={data.email} onChange={InputEvent} />
+                    <input type='email' name='user_email'/>
                   </div> 
                   <div className='input'>
-                    <span>YOUR MESSAGE </span>
-                    <textarea name='message' value={data.message} onChange={InputEvent}></textarea>
+                    <span>MESSAGE </span>
+                    <textarea name='message'></textarea>
                   </div>
-                  <button className='btn_shadow'>
-                    SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
-                  </button>
+                  <input className='btn-send' type="submit" value="ENVOYER">
+                  </input>
               </form>
             </div>
           </div>

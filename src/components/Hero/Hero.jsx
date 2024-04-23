@@ -19,7 +19,7 @@ import Insomnia from "../../assets/images/insomnia.png"
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
+      <section className='hero' id="Hero">
         <div className='hero-container'>
             <div className='hero-content'>
                 <h2>Abid Fatima | Développeuse Frontend</h2>
