@@ -149,11 +149,13 @@
 
 @media (max-width: 768px) {
     .hero-container{
-        flex-direction: column;
+        flex-direction: row;
+        margin: 10px;
     }
 
-    .hero-img{
+    .hero-img img{
         margin:2rem 0 2rem 0;
+        width: 300px;
     }
 
     .hero-container h2{
@@ -166,6 +168,9 @@
         text-align: center;
     }
 
+    .hero-content h2{
+        font-size: 30px;
+    }
     .hero-container::after,
     .hero-container::before{
         content:" ";
@@ -181,6 +186,12 @@
     .hero-container::before{
         bottom: 2rem;
         right: 0rem;
+    }
+
+    .hero-stack{
+        width: 650px;
+        margin: 10px auto;
+
     }
 }
 

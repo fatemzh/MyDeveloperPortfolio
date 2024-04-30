@@ -62,13 +62,22 @@
 }
 
 @media(max-width:768px){
+    .skills-container{
+        width: 650px;
+        margin: 100px auto;
+    }
     .skills-content{
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 3rem;
     }
     .skills,
     .skills-info{
         width: 100%;
+    }
+
+    .skills-info{
+        display: flex;
+        justify-content: center;
     }
     .skills-container h5{
         font-size: 1.3rem;
