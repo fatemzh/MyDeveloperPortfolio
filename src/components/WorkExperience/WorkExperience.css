@@ -66,3 +66,10 @@
     background: rgba(235, 184, 255, 0.2);
 }
 }
+
+@media (max-width:600px){
+    .experience-container{
+        width: 550px;
+        margin: 10px auto;
+    }
+}

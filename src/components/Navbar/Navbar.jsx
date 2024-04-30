@@ -17,16 +17,16 @@ const Navbar = () => {
                     <img className="logo" src={logo} alt="" />
                     <ul>
                         <li>
-                            <a className="menu-item" id="#Hero">Home</a>
+                            <a className="menu-item" id="#Hero">Accueil</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="#Skills">Skills</a>
+                            <a className="menu-item" href="#Skills">Compétences</a>
                         </li>
                         <li>
                             <a className="menu-item" href="#WorkExperience">Projets</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="#Contact">Contact Me</a>
+                            <a className="menu-item" href="#Contact">Contactez-moi</a>
                         </li>
                     </ul>
                     <button className="menu-btn" onClick={toggleMenu}>

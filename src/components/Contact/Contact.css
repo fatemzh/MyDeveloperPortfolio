@@ -149,3 +149,10 @@
         width: 650px;
     }
 }
+
+@media (max-width: 600px) {
+    .contact{
+        width: 580px;
+        margin: 0;
+    }
+}

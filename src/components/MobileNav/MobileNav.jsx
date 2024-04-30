@@ -12,20 +12,17 @@ const MobileNav = ({isOpen, toggleMenu}) => {
                     <img className='logo' src="../../assets/images/logo.png" alt="" />
                     <ul>
                         <li>
-                            <a className="menu-item" href="">Home</a>
+                            <a className="menu-item" id="#Hero">Accueil</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="">Skills</a>
+                            <a className="menu-item" href="#Skills">Compétences</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="">Work Experience</a>
+                            <a className="menu-item" href="#WorkExperience">Projets</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="">Contact Me</a>
+                            <a className="menu-item" href="#Contact">Contactez-moi</a>
                         </li>
-                        <button className="contact-btn" onClick={()=>{}}>
-                            Hire Me
-                        </button>
                     </ul>
                 </div>
             </div>

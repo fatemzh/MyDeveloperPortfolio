@@ -196,9 +196,19 @@
 }
 
 @media (max-width: 600px){
+
+    .hero{
+        width: 100%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    .hero-container, .hero-stack{
+        margin: 10px 50px;
+    }
     .hero-content h2{
-        font-size: 2.2rem;
-        line-height: 3rem;
+        font-size: 20px;
+        line-height: 2rem;
     }
 
     .hero-content p{
@@ -206,24 +216,25 @@
         line-height: 1.3rem;
     }
 
-    .hero-img{
-        gap: 1rem;
-    }
-
-    .hero-img > div{
-        gap: 1rem;
-    }
-
-    .hero-img > div > img{
-        width: 16rem;
+    .hero-img img{
+        width: 200px;
     }
 
     .tech-icon{
-        width: 3.3rem;
-        height: 3.3rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tech-icon p{
+     font-size: 0.7rem;
     }
 
     .tech-icon img{
-        width: 2rem;
+        width: 1.6rem;
+    }
+
+    .hero-stack{
+        width: 600px;
+        margin: 10px;
     }
 }
