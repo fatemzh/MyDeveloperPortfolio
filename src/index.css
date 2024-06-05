@@ -6,10 +6,84 @@
 }
 
 body{
-  color: #fff;
-  background-color: #060417;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
+:root {
+  --bg-color-light: rgba(255, 255, 255, 0.8); 
+  --bg-color-dark: rgba(23, 6, 51, 0.8);  
+  --text-color-light: #000000; 
+  --text-color-dark: #ffffff; 
+  --accent-color-light: linear-gradient(90deg, #a993fe 0%, #aea1dd 100%);
+  --accent-color-dark: linear-gradient(90deg, #3c3c3c 0%, #1a1a1a 100%);
+  --button-hover-bg-light: #f0f0f0; 
+  --button-hover-bg-dark: #333333; 
+  --button-hover-color-light: #7e61e7;
+  --button-hover-color-dark: #a993fe; 
+  --navbar-background-light: rgba(255, 255, 255, 0.2);
+  --navbar-background-dark: rgba(39, 35, 63, 0.3);
+
+  --neumorphism-light: rgba(255, 255, 255, 0.8);
+  --neumorphism-dark: rgba(0, 0, 0, 0.1);
+  --neumorphism-shadow-light: 10px 10px 10px rgba(97, 97, 97, 0.3), -10px -10px 10px rgba(255, 255, 255, 0.3);
+  --neumorphism-shadow-dark: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(56, 56, 56, 0.2);
+
+  --skill-card-bg-light-hover: #b0b0d3; /* Light mode background color for SkillCard */
+  --skill-card-bg-dark-hover: #9d90e765; /* Dark mode background color for SkillCard */
+
+  --experience-card-bg-light: #e0e0f8; /* Light mode background color for ExperienceCard */
+  --experience-card-bg-dark: #282850; /* Dark mode background color for ExperienceCard */
+  --experience-card-bg-light-hover: #b0b0d3; /* Light mode hover background color for ExperienceCard */
+  --experience-card-bg-dark-hover: #9d90e765; /* Dark mode hover background color for ExperienceCard */
+
+  --contact-bg-light: #f5f5ff; /* Light mode background color for Contact */
+  --contact-bg-dark: rgba(23, 6, 51, 0.6); /* Dark mode background color for Contact */
+  --contact-bg-light-hover: #e0e0f8; /* Light mode hover background color for Contact */
+  --contact-bg-dark-hover: #3a3a66; /* Dark mode hover background color for Contact */
+
+  --input-bg-light: rgb(216, 225, 255, 0.4); /* Light mode background color for inputs and text area */
+  --input-bg-dark: rgba(23, 6, 51, 0.5); /* Dark mode background color for inputs and text area */
+
+  --send-btn-bg-light: rgba(96, 133, 255, 0.4); /* Light mode background color for inputs and text area */
+  --send-btn-bg-dark: rgba(50, 28, 87, 0.5); /* Dark mode background color for inputs and text area */
+}
+
+[data-theme="light"] {
+  --bg-color: var(--bg-color-light);
+  --text-color: var(--text-color-light);
+  --accent-color: var(--accent-color-light);
+  --navbar-background: var(--navbar-background-light);
+  --button-hover-bg: var(--button-hover-bg-light);
+  --button-hover-color: var(--button-hover-color-light);
+  --neumorphism-background: var(--neumorphism-light);
+  --neumorphism-shadow: var(--neumorphism-shadow-light);
+  --skill-card-bg: var(--skill-card-bg-light);
+  --skill-card-bg-hover: var(--skill-card-bg-light-hover);
+  --experience-card-bg: var(--experience-card-bg-light);
+  --experience-card-bg-hover: var(--experience-card-bg-light-hover);
+  --contact-bg: var(--contact-bg-light);
+  --contact-bg-hover: var(--contact-bg-light-hover);
+  --send-btn: var(--input-bg-light);
+}
+
+[data-theme="dark"] {
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --navbar-background: var(--navbar-background-dark);
+  --button-hover-bg: var(--button-hover-bg-dark);
+  --button-hover-color: var(--button-hover-color-dark);
+  --neumorphism-background: var(--neumorphism-dark);
+  --neumorphism-shadow: var(--neumorphism-shadow-dark);
+  --skill-card-bg: var(--skill-card-bg-dark);
+  --skill-card-bg-hover: var(--skill-card-bg-dark-hover);
+  --experience-card-bg: var(--experience-card-bg-dark);
+  --experience-card-bg-hover: var(--experience-card-bg-dark-hover);
+  --contact-bg: var(--contact-bg-dark);
+  --contact-bg-hover: var(--contact-bg-dark-hover);
+  --send-btn: var(--input-bg-dark);
+}

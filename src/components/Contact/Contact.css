@@ -13,10 +13,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.1); 
+    background: var(--contact-bg); 
+    box-shadow: var(--neumorphism-shadow);
     backdrop-filter: blur(10px); 
-    border: 1px solid rgba(255, 255, 255, 0.25); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px; 
     padding: 35px; 
     margin: 10px; 
@@ -27,6 +26,7 @@
 .contact-title h1{
     font-size: 40px;
     margin-left: 50px;
+    color: var(--text-color);
 }
 
 .Contact .left{
@@ -40,9 +40,6 @@
     height: 450px;
 }
 
-.form{
-
-}
 .Contact .box {
     padding: 30px;
     border-radius: 10px;
@@ -50,17 +47,17 @@
 
 .Contact .details h1 {
     font-size: 25px;
-    color: #fff; 
+    color: var(--text-color);
 }
 
 .Contact .details h2 {
     font-size: 15px;
-    color: #fff; 
+    color: var(--text-color);
 }
 
 .Contact .details p {
     font-size: 12px;
-    color: #ddd; 
+    color: var(--text-color);
 }
 
 .right .input{
@@ -69,32 +66,36 @@
 }
 
 
-.btn-send{
-    margin-right: 20px;
-    padding: 18px 25px;
+.btn-send {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
     border-radius: 6px;
     color: #000;
     cursor: pointer;
     transition: 0.5s all ease;
     border: none;
-    color: white;
-    background: linear-gradient(90deg, #3d3072 0%, #423477 100%);
+    color: var(--text-color);
+    background: var(--experience-card-bg);
+    width: 150px !important; /* Set a fixed width */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    margin: 0 auto;
 }
 
 .btn-send:hover {
-    background: #ff014f;
-    color: white;
+    background: var(--send-btn);
+    color: var(--button-hover-color);
     transform: translateY(-3px);
 }
 
 .Contact input{
-    background-color: rgba(255, 255, 255, 0.8); 
-    color: #000; 
+    background-color: var(--input-bg)!important; 
+    color: var(--text-color); 
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+    border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, 0.4);
     margin-top: 5px;
     margin-bottom: 20px;
     height: 35px;
@@ -102,15 +103,15 @@
 
 .Contact textarea 
 {
-    background-color: rgba(255, 255, 255, 0.8); /* Fond légèrement plus opaque pour les inputs */
-    color: #000; /* Texte noir pour une meilleure lisibilité */
+    background-color: var(--input-bg); 
+    color: var(--text-color);
     width: 100%;
     padding: 20px;
     border-radius: 5px;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, 0.4);
     margin-top: 10px;
     margin-bottom: 20px;
+    border: none;
 }
 
 .phone,
@@ -127,13 +128,14 @@
     height: 20px;
     margin-right: 10px;
     margin-top: 10px;
+    color: var(--text-color);
 }
 
 .email a,
 .linkedin a,
 .github a{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     font-size: 12px;
 }
 

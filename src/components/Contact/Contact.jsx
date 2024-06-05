@@ -82,8 +82,7 @@ const Contact = () => {
                     <span>MESSAGE </span>
                     <textarea name='message'></textarea>
                   </div>
-                  <input className='btn-send' type="submit" value="ENVOYER">
-                  </input>
+                  <input className='btn-send' type="submit" value="ENVOYER"/>
               </form>
             </div>
           </div>

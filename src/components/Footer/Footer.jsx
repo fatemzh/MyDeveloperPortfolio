@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-        © 2024 Developed by Abid Fatem
+        © 2024 Developed by Abid Fatima
     </div>
   )
 }
