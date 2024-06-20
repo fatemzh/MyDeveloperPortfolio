@@ -1,5 +1,5 @@
 .skills-container{
-    margin: 4rem;
+    margin: 100px 200px 100px 250px;
     position: relative;
 }
 
@@ -27,22 +27,25 @@
 }
 
 .skills-container h5{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
 }
 
 .skills-content{
     display: flex;
-    align-items: flex-start;
-    gap:3rem
+    align-items: space-between;
+    justify-content: center;
+    width: 100%;
+    gap:4rem;
 }
 
 .skills{
     flex: 1;
     display: grid;
-    grid-gap: 3rem;
+    grid-gap: 5rem;
     grid-template-columns: repeat(2,1fr);
+    align-items: center;
 }
 
 .skills-info{
@@ -59,13 +62,22 @@
 }
 
 @media(max-width:768px){
+    .skills-container{
+        width: 650px;
+        margin: 100px auto;
+    }
     .skills-content{
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 3rem;
     }
     .skills,
     .skills-info{
         width: 100%;
+    }
+
+    .skills-info{
+        display: flex;
+        justify-content: center;
     }
     .skills-container h5{
         font-size: 1.3rem;
@@ -80,6 +92,7 @@
 
 @media (max-width:600px){
     .skills-container{
+        width: 550px;
         padding: 0px;
     }
 }

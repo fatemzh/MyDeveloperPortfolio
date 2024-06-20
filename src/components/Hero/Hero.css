@@ -1,72 +1,76 @@
-.hero-container{
+/* src/components/Hero/Hero.css */
+
+.hero-container {
     display: flex;
     align-items: center;
     position: relative;
-    margin: 0 50px;
-}
-
-.hero-container::after,
-.hero-container::before{
+    margin: 0px 200px;
+  }
+  
+  .hero-container::after,
+  .hero-container::before {
     content: "";
     position: absolute;
     width: 28.125rem;
     height: 28.125rem;
     border-radius: 28.125rem;
-    background: #7c66e3;
+    background: var(--accent-color);
     z-index: -1;
     filter: blur(225px);
-}
-
-.hero-container::after{
-    top:-3rem;
-    left:-5rem;
-}
-
-.hero-container::before{
+  }
+  
+  .hero-container::after {
+    top: -3rem;
+    left: -5rem;
+  }
+  
+  .hero-container::before {
     bottom: 2rem;
     right: 0rem;
-}
-
-.hero-content{
+  }
+  
+  .hero-content {
     flex: 1;
-}
-
-.hero-content h2,{
+  }
+  
+  .hero-content h2 {
     font-size: 3.8rem;
     font-weight: 600;
     line-height: 5rem;
     margin-bottom: 1rem;
-}
-
-.hero-content p{
+    color: var(--text-color); 
+  }
+  
+  .hero-content p {
     width: 80%;
     font-size: 1rem;
     font-weight: 400;
     line-height: 2rem;
-}
-
-.hero-img{
+    color: var(--text-color);
+  }
+  
+  .hero-img {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     margin-top: 5rem;
-}
-
-.hero-img > div{
+  }
+  
+  .hero-img > div {
     display: flex;
     align-items: flex-end;
     gap: 2rem;
-}
-
-.hero-img > div > img{
+  }
+  
+  .hero-img > div > img {
     width: 32rem;
     transition: all 0.3s ease;
     height: 600px;
-}
-
-.tech-icon{
+  }
+  
+  .tech-icon {
     width: 6rem;
     height: 6rem;
     display: flex;
@@ -75,143 +79,180 @@
     flex-direction: column;
     text-align: center;
     border-radius: 0.65rem;
-    border: 1.5px solid #6852ba;
-    background-color: #503ab6;
-}
-
-.hero-stack h5{
-    font-size: 1.5rem;
+    background-color: var(--bg-color); 
+    box-shadow: var(--neumorphism-shadow-light), var(--neumorphism-shadow-dark);
+    transition: all 0.3s ease;
+  }
+  
+  .hero-stack h5 {
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
-}
-
-.tech-icon p{
+    color: var(--text-color);
+  }
+  
+  .tech-icon p {
     font-size: 0.85rem;
-}
-
-.tech-icon img{
+    color: var(--text-color); 
+  }
+  
+  .tech-icon img {
     width: 3rem;
     height: auto;
     transition: all 0.3s ease;
-}
-
-.hero-img > div > img:hover,
-.tech-icon:hover{
+    margin-top: 10px;
+  }
+  
+  .hero-img > div > img:hover,
+  .tech-icon:hover {
     transform: translateY(-0.5rem);
-    background-color: #684fd7;
-}
-
-.hero-stack{
+    box-shadow: var(--neumorphism-shadow-light), var(--neumorphism-shadow-dark, inset 0 0 10px rgba(0, 0, 0, 0.1));
+  }
+  
+  .hero-stack {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-top: 5rem;
     position: relative;
-    margin: 40px 50px;
-}
-
-.stack-icons{
+    margin: 0px 200px;
+  }
+  
+  .stack-icons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
-}
-
-
-
-@media (max-width: 1025px) {
-    .hero-content h2{
-        font-size: 3rem;
-        line-height: 4rem;
+  }
+  
+  @media (max-width: 1025px) {
+    .hero-content h2 {
+      font-size: 3rem;
+      line-height: 4rem;
     }
-
-    .hero-content p{
-        font-size: 0.9rem;
-        line-height: 1.6rem;
+  
+    .hero-content p {
+      font-size: 0.9rem;
+      line-height: 1.6rem;
     }
-
+  
     .hero-img > div > img {
-        width: 20rem;
-        height: auto;
+      width: 20rem;
+      height: auto;
     }
-
-    .tech-icon{
-        width: 4rem;
-        height: 4rem;
+  
+    .tech-icon {
+      width: 4rem;
+      height: 4rem;
     }
-
-    .tech-icon img{
-        width: 2.5rem;
-        height: auto;
+  
+    .tech-icon img {
+      width: 2.5rem;
+      height: auto;
     }
-}
-
-@media (max-width: 768px) {
-    .hero-container{
-        flex-direction: column;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-container {
+      flex-direction: row;
+      margin: 10px;
     }
-
-    .hero-img{
-        margin:2rem 0 2rem 0;
+  
+    .hero-img img {
+      margin: 2rem 0 2rem 0;
+      width: 300px;
     }
-
-    .hero-container h2{
-        margin-top: 3rem;
+  
+    .hero-container h2 {
+      margin-top: 3rem;
     }
-
+  
     .hero-content h2,
-    .hero-content p{
-        width: auto;
-        text-align: center;
+    .hero-content p {
+      width: auto;
+      text-align: center;
     }
-
+  
+    .hero-content h2 {
+      font-size: 30px;
+    }
+  
     .hero-container::after,
-    .hero-container::before{
-        content:" ";
-        width: 18rem;
-        height: 18rem;
+    .hero-container::before {
+      content: " ";
+      width: 18rem;
+      height: 18rem;
     }
-
-    .hero-container::after{
-        top:0rem;
-        left:0rem;
+  
+    .hero-container::after {
+      top: 0rem;
+      left: 0rem;
     }
-
-    .hero-container::before{
-        bottom: 2rem;
-        right: 0rem;
+  
+    .hero-container::before {
+      bottom: 2rem;
+      right: 0rem;
     }
-}
-
-@media (max-width: 600px){
-    .hero-content h2{
-        font-size: 2.2rem;
-        line-height: 3rem;
+  
+    .hero-stack {
+      width: 650px;
+      margin: 10px auto;
     }
-
-    .hero-content p{
-        font-size: 0.8rem;
-        line-height: 1.3rem;
+  }
+  
+  @media (max-width: 600px) {
+    .hero {
+      width: 100%;
+      margin: 10px auto;
+      padding: 20px;
     }
-
-    .hero-img{
-        gap: 1rem;
+  
+    .hero-container,
+    .hero-stack {
+      margin: 10px 50px;
     }
-
-    .hero-img > div{
-        gap: 1rem;
+  
+    .hero-content h2 {
+      font-size: 20px;
+      line-height: 2rem;
     }
-
-    .hero-img > div > img{
-        width: 16rem;
+  
+    .hero-content p {
+      font-size: 0.8rem;
+      line-height: 1.3rem;
     }
-
-    .tech-icon{
-        width: 3.3rem;
-        height: 3.3rem;
+  
+    .hero-img img {
+      width: 200px;
     }
-
-    .tech-icon img{
-        width: 2rem;
+  
+    .tech-icon {
+      width: 4rem;
+      height: 4rem;
     }
-}
+  
+    .tech-icon p {
+      font-size: 0.7rem;
+    }
+  
+    .tech-icon img {
+      width: 1.6rem;
+    }
+  
+    .hero-stack {
+      width: 600px;
+      margin: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      width: 430px;
+      margin: 10px auto;
+    }
+  
+    .hero-img img {
+      width: 150px;
+    }
+  }
+  
