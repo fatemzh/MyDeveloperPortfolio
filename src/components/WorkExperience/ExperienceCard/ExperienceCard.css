@@ -24,6 +24,25 @@
 .projectImg{
     cursor: pointer;
 }
+.image-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre avec opacité */
+    display: flex;
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    z-index: 1050; /* Assurez-vous que l'overlay est au-dessus des autres éléments */
+}
+
+.enlarged-image {
+    max-width: 80%; /* Ajustez selon vos besoins pour le site */
+    max-height: 80%; /* Empêche l'image de dépasser de l'écran */
+    box-shadow: 0 0 10px #fff; /* Optionnel: ajoute une ombre pour mieux distinguer l'image */
+}
+
 
 .work-experience-card:hover{
     background: #3e3298;

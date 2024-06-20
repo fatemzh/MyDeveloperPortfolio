@@ -80,7 +80,6 @@ export const WORK_EXPERIENCE = [
         ],
         githubLink: "https://github.com/fatemzh/kanbanboard-electron",
         projectImg: kanban,
-
     },
     {
         title:"Portfolio pour développeur",
