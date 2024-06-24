@@ -76,7 +76,6 @@ export const WORK_EXPERIENCE = [
             {logo : logoElectron, name:"Electron"},
             {logo: logoFigma, name:"Figma"},
             {logo: logoVite, name:"Vite"},
-            {logo: logoGithub, name:"Github"},
         ],
         githubLink: "https://github.com/fatemzh/kanbanboard-electron",
     },
@@ -94,7 +93,6 @@ export const WORK_EXPERIENCE = [
             {logo: logoTW, name:"TailwindCSS"},
             {logo: logoFigma, name:"Figma"},
             {logo: logoVite, name:"Vite"},
-            {logo: logoGithub, name:"Github"},
         ],
         githubLink : "https://github.com/fatemzh/my-react-portfolio/tree/main",
     },
@@ -113,7 +111,6 @@ export const WORK_EXPERIENCE = [
             {logo: logoPhp, name:"PHP"},
             {logo: logoMySQL, name:"MySQL"},
             {logo: logoFigma, name:"Figma"},
-            {logo: logoGithub, name:"Github"},
         ],
         githubLink:"https://github.com/fatemzh/Book-blog",
     },
@@ -130,7 +127,6 @@ export const WORK_EXPERIENCE = [
             {logo: logoNode, name:"Node.js"},
             {logo: logoJS, name:"JavaScript"},
             {logo : Insomnia, name: "Insomnia"},
-            {logo: logoGithub, name:"Github"},
         ],
         githubLink : "https://github.com/fatemzh/NODE-POKEMON-API",
     },
@@ -148,14 +144,13 @@ export const WORK_EXPERIENCE = [
             {logo: logoTW, name:"TailwindCSS"},
             {logo: logoVite, name:"Vite"}, 
             {logo: logoFigma, name:"Figma"},      
-            {logo: logoGithub, name:"Github"},
         ],
         githubLink:"https://github.com/fatemzh/sunil-portfolio"
     },
     {
         title:"Cosy Gaming Blog",
         date:"Avril 2023 - Mai 2023",
-        iconUrl: require("../assets/images/click.png"),
+        iconUrl: require("../assets/images/github.png"),
         responsabilities : [
             "Conception d'un site dédié à la communauté des amateurs de jeux cosy, avec une attention particulière portée à une esthétique visuelle dans le thème du cosy gaming.",
             "Utilisation avancée du CSS pour créer des éléments visuels uniques et une mise en page responsive.",
@@ -166,9 +161,9 @@ export const WORK_EXPERIENCE = [
             {logo: logoCSS, name:"CSS3"},
             {logo: logoJS, name:"JavaScript"},
             {logo: logoFigma, name:"Figma"},
-            {logo: logoGithub, name:"Github"},
         ],
-        githubLink : "https://fatemzh.github.io/CosyGaming/"
+        githubLink : "https://github.com/fatemzh/CosyGaming",
+        pageLink:"https://fatemzh.github.io/CosyGaming/"
     },
     {
         title:"Jeu Pac-Man en mode console",
@@ -182,14 +177,14 @@ export const WORK_EXPERIENCE = [
         technologies:[
             {logo: logoC},
             {logo: logoFigma, name:"Figma"},
-            {logo: logoGithub, name:"Github"},
-        ]
-        //AJOUTER LINK
-    },
+        ],
+        githubLink:"https://github.com/cyberkathleen/pacman-made-simple",
+        pageLink:""
+        },
     {
         title:"Site pour les Portes Ouvertes 2022 de l'ETML",
         date:"Septembre 2022 - Novembre 2022",
-        iconUrl: require("../assets/images/click.png"),
+        iconUrl: require("../assets/images/github.png"),
         responsabilities : [
             "Développement de sections dédiées aux débouchés professionnels offerts par la formation en informatique, fournissant des explications claires pour inspirer les futurs apprentis.",
             "Mise en place d'un formulaire de contact responsive pour permettre aux visiteurs de poser des questions ou de demander des informations supplémentaires, assurant une interaction facile sur n'importe quel appareil.",
@@ -201,8 +196,9 @@ export const WORK_EXPERIENCE = [
             {logo: logoJS, name:"JavaScript"},
             {logo: logoPhp, name:"PHP"},
             {logo: logoFigma, name:"Figma"},
-            {logo: logoGithub, name:"Github"},
         ],
-        githubLink:"https://fatemzh.github.io/PO-ETML/",
+        githubLink:"https://github.com/fatemzh/PO-ETML",
+        pageLink:"https://fatemzh.github.io/PO-ETML/",
+        preview: require("../assets/apps-screens/po.png")
     },
 ]

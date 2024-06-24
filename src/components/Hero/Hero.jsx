@@ -22,7 +22,7 @@ const Hero = () => {
       <section className='hero' id="Hero">
         <div className='hero-container'>
             <div className='hero-content'>
-                <h2>Abid Fatima | Développeuse Frontend</h2>
+                <h2>Abid Fatima Développeuse Frontend</h2>
                 <br />
                 <p>
                     Ma mission : vous offrir des solutions web sur-mesure qui non seulement captivent vos visiteurs mais boostent également votre présence en ligne. En collaborant avec moi, vous choisissez un partenaire dédié à transformer vos idées en expériences web stimulantes et engageantes.

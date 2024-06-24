@@ -1,96 +1,103 @@
-
-.Contact{
+.Contact {
     margin: 100px 200px;
-}
-
-.Contact .content{
+  }
+  
+  .Contact .content {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.Contact .left, 
-.Contact .right {
+  }
+  
+  .Contact .left, 
+  .Contact .right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: var(--contact-bg); 
+    background: var(--contact-bg);
     box-shadow: var(--neumorphism-shadow);
-    backdrop-filter: blur(10px); 
-    border-radius: 10px; 
-    padding: 35px; 
-    margin: 10px; 
-    position: relative; 
-    z-index: 1; 
-}
-
-.contact-title h1{
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 35px;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .contact-title h1 {
     font-size: 40px;
     margin-left: 50px;
     color: var(--text-color);
-}
-
-.Contact .left{
+  }
+  
+  .Contact .left {
     width: 500px;
     height: 450px;
     padding: 10px;
-}
-
-.Contact .right{
+  }
+  
+  .Contact .right {
     width: 750px;
     height: 450px;
-}
-
-.Contact .box {
+  }
+  
+  .Contact .box {
     padding: 30px;
     border-radius: 10px;
-}
-
-.Contact .details h1 {
+  }
+  
+  .Contact .details h1 {
     font-size: 25px;
     color: var(--text-color);
-}
-
-.Contact .details h2 {
+  }
+  
+  .Contact .details h2 {
     font-size: 15px;
     color: var(--text-color);
-}
-
-.Contact .details p {
+  }
+  
+  .Contact .details p {
     font-size: 12px;
     color: var(--text-color);
-}
-
-.right .input{
+  }
+  
+  .right .input {
     display: flex;
     flex-direction: column;
-}
-
-
-.btn-send {
+  }
+  
+  .btn-send {
     display: flex;
     justify-content: center;
     align-items: center !important;
     border-radius: 6px;
-    color: #000;
     cursor: pointer;
     transition: 0.5s all ease;
     border: none;
     color: var(--text-color);
-    background: var(--experience-card-bg);
-    width: 150px !important; /* Set a fixed width */
+    background: var(--send-btn-bg-light); /* Default to light mode background */
+    width: 150px !important;
     max-width: 100%; /* Ensure it doesn't overflow */
     margin: 0 auto;
-}
-
-.btn-send:hover {
-    background: var(--send-btn);
+  }
+  
+  [data-theme="dark"] .btn-send {
+    background: var(--send-btn-bg-dark); /* Override for dark mode */
+    color: #000000; /* Set text color to black for dark mode */
+  }
+  
+  .btn-send:hover {
+    background: var(--send-btn-bg-light);
     color: var(--button-hover-color);
     transform: translateY(-3px);
-}
-
-.Contact input{
-    background-color: var(--input-bg)!important; 
-    color: var(--text-color); 
+  }
+  
+  [data-theme="dark"] .btn-send:hover {
+    background: var(--send-btn-bg-dark);
+  }
+  
+  .Contact input {
+    background-color: var(--input-bg)!important;
+    color: var(--text-color);
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -99,11 +106,10 @@
     margin-top: 5px;
     margin-bottom: 20px;
     height: 35px;
-}
-
-.Contact textarea 
-{
-    background-color: var(--input-bg); 
+  }
+  
+  .Contact textarea {
+    background-color: var(--input-bg);
     color: var(--text-color);
     width: 100%;
     padding: 20px;
@@ -112,49 +118,49 @@
     margin-top: 10px;
     margin-bottom: 20px;
     border: none;
-}
-
-.phone,
-.email .email-content,
-.linkedin,
-.github {
+  }
+  
+  .phone,
+  .email .email-content,
+  .linkedin,
+  .github {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.email-icon, .phone-icon, .linkedin-icon, .github-icon{
+  }
+  
+  .email-icon, .phone-icon, .linkedin-icon, .github-icon {
     width: 20px;
     height: 20px;
     margin-right: 10px;
     margin-top: 10px;
     color: var(--text-color);
-}
-
-.email a,
-.linkedin a,
-.github a{
+  }
+  
+  .email a,
+  .linkedin a,
+  .github a {
     text-decoration: none;
     color: var(--text-color);
     font-size: 12px;
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .Contact .left, 
     .Contact .right {
-        width: 100%; 
-        margin-top: 20px;
+      width: 100%;
+      margin-top: 20px;
     }
-
-    .Contact{
-        margin: 50px auto;
-        width: 650px;
+  
+    .Contact {
+      margin: 50px auto;
+      width: 650px;
     }
-}
-
-@media (max-width: 600px) {
-    .contact{
-        width: 580px;
-        margin: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .contact {
+      width: 580px;
+      margin: 0;
     }
-}
+  }

@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   color: var(--text-color);
   background-color: var(--bg-color);
   width: 100%;
@@ -14,42 +14,42 @@ body{
 }
 
 :root {
-  --bg-color-light: rgba(255, 255, 255, 0.8); 
-  --bg-color-dark: rgba(23, 6, 51, 0.8);  
-  --text-color-light: #000000; 
-  --text-color-dark: #ffffff; 
+  --bg-color-light: rgba(255, 255, 255, 0.8);
+  --bg-color-dark: rgba(23, 6, 51, 0.8);
+  --text-color-light: #000000;
+  --text-color-dark: #ffffff;
   --accent-color-light: linear-gradient(90deg, #a993fe 0%, #aea1dd 100%);
   --accent-color-dark: linear-gradient(90deg, #3c3c3c 0%, #1a1a1a 100%);
-  --button-hover-bg-light: #f0f0f0; 
-  --button-hover-bg-dark: #333333; 
+  --button-hover-bg-light: #f0f0f0;
+  --button-hover-bg-dark: #333333;
   --button-hover-color-light: #7e61e7;
-  --button-hover-color-dark: #a993fe; 
+  --button-hover-color-dark: #a993fe;
   --navbar-background-light: rgba(255, 255, 255, 0.2);
   --navbar-background-dark: rgba(39, 35, 63, 0.3);
 
   --neumorphism-light: rgba(255, 255, 255, 0.8);
   --neumorphism-dark: rgba(0, 0, 0, 0.1);
-  --neumorphism-shadow-light: 10px 10px 10px rgba(97, 97, 97, 0.3), -10px -10px 10px rgba(255, 255, 255, 0.3);
-  --neumorphism-shadow-dark: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(56, 56, 56, 0.2);
+  --neumorphism-shadow-light: 5px 5px 5px rgba(97, 97, 97, 0.632), -5px -5px 10px rgba(255, 255, 255, 0.3);
+  --neumorphism-shadow-dark: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(56, 56, 56, 0.2);
 
-  --skill-card-bg-light-hover: #b0b0d3; /* Light mode background color for SkillCard */
-  --skill-card-bg-dark-hover: #9d90e765; /* Dark mode background color for SkillCard */
+  --skill-card-bg-light-hover: #b0b0d3;
+  --skill-card-bg-dark-hover: #9d90e765;
 
-  --experience-card-bg-light: #e0e0f8; /* Light mode background color for ExperienceCard */
-  --experience-card-bg-dark: #282850; /* Dark mode background color for ExperienceCard */
-  --experience-card-bg-light-hover: #b0b0d3; /* Light mode hover background color for ExperienceCard */
-  --experience-card-bg-dark-hover: #9d90e765; /* Dark mode hover background color for ExperienceCard */
+  --experience-card-bg-light: #e0e0f8;
+  --experience-card-bg-dark: #282850;
+  --experience-card-bg-light-hover: #b0b0d3;
+  --experience-card-bg-dark-hover: #9d90e765;
 
-  --contact-bg-light: #f5f5ff; /* Light mode background color for Contact */
-  --contact-bg-dark: rgba(23, 6, 51, 0.6); /* Dark mode background color for Contact */
-  --contact-bg-light-hover: #e0e0f8; /* Light mode hover background color for Contact */
-  --contact-bg-dark-hover: #3a3a66; /* Dark mode hover background color for Contact */
+  --contact-bg-light: #f5f5ff;
+  --contact-bg-dark: rgba(23, 6, 51, 0.6);
+  --contact-bg-light-hover: #e0e0f8;
+  --contact-bg-dark-hover: #3a3a66;
 
-  --input-bg-light: rgb(216, 225, 255, 0.4); /* Light mode background color for inputs and text area */
-  --input-bg-dark: rgba(23, 6, 51, 0.5); /* Dark mode background color for inputs and text area */
+  --input-bg-light: rgba(162, 179, 234, 0.442);
+  --input-bg-dark: rgba(124, 101, 162, 0.5);
 
-  --send-btn-bg-light: rgba(96, 133, 255, 0.4); /* Light mode background color for inputs and text area */
-  --send-btn-bg-dark: rgba(50, 28, 87, 0.5); /* Dark mode background color for inputs and text area */
+  --send-btn-bg-light: #971f1f;
+  --send-btn-bg-dark: #ffffff;
 }
 
 [data-theme="light"] {
@@ -67,7 +67,8 @@ body{
   --experience-card-bg-hover: var(--experience-card-bg-light-hover);
   --contact-bg: var(--contact-bg-light);
   --contact-bg-hover: var(--contact-bg-light-hover);
-  --send-btn: var(--input-bg-light);
+  --send-btn: var(--send-btn-bg-light);
+  --input-bg: var(--input-bg-light)
 }
 
 [data-theme="dark"] {
@@ -85,5 +86,6 @@ body{
   --experience-card-bg-hover: var(--experience-card-bg-dark-hover);
   --contact-bg: var(--contact-bg-dark);
   --contact-bg-hover: var(--contact-bg-dark-hover);
-  --send-btn: var(--input-bg-dark);
+  --send-btn: var(--send-btn-bg-dark);
+  --input-bg: var(--input-bg-dark)
 }
