@@ -94,7 +94,10 @@
 #preview{
     margin: 0 auto;
     width: 600px;
+    min-height: 360px;
+    max-height: 430px;
 }
+
 @media(max-width:768px){
     .work-experience-card{
         margin: 0;
