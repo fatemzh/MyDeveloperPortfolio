@@ -68,10 +68,6 @@ const Hero = () => {
                     <p>Git</p>
                 </div>
                 <div className='tech-icon'>
-                    <img src={logoGithub} alt="" />
-                    <p>Github</p>
-                </div>
-                <div className='tech-icon'>
                     <img src={logoNPM} alt="" />
                     <p>NPM</p>
                 </div>
