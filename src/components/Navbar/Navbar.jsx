@@ -29,7 +29,7 @@ const Navbar = () => {
                             <a className="menu-item" href="#WorkExperience">Projets</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="#Contact">Contactez-moi</a>
+                            <a className="menu-item" href="#Contact">Contact</a>
                         </li>
                         <div className="wrapper">
                             <div className="toggle">

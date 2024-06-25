@@ -1,4 +1,3 @@
-// src/components/MobileNav/MobileNav.jsx
 import { useContext } from "react";
 import './MobileNav.css';
 import { ThemeContext } from '../../utils/ThemeContext';
@@ -7,10 +6,14 @@ import logo from '../../assets/images/logo.png';
 const MobileNav = ({ isOpen, toggleMenu }) => {
     const { theme, toggleTheme } = useContext(ThemeContext);
 
+    const handleMenuClick = (e) => {
+        e.stopPropagation();
+    };
+
     return (
         <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
-            <div className="mobile-menu-container">
-                <img className='logo' src={logo} alt="" />
+            <div className="mobile-menu-container" onClick={handleMenuClick}>
+                <img className='logo' src={logo} alt="Logo" />
                 <ul>
                     <li>
                         <a className="menu-item" href="#Hero">Accueil</a>
@@ -22,11 +25,11 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                         <a className="menu-item" href="#WorkExperience">Projets</a>
                     </li>
                     <li>
-                        <a className="menu-item" href="#Contact">Contactez-moi</a>
+                        <a className="menu-item" href="#Contact">Contact</a>
                     </li>
-                    <button className="menu-btn" onClick={toggleTheme}>
+                    {/* <button className="menu-btn" onClick={toggleTheme}>
                         {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
-                    </button>
+                    </button> */}
                 </ul>
             </div>
         </div>

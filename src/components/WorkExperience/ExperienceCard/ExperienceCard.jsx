@@ -16,12 +16,12 @@ const ExperienceCard = ({ details }) => {
               />
             ) : null;
           })}
-        </div>
-        {details.githubLink && (
+          {details.githubLink && (
           <a href={details.githubLink}>
             <img src={details.iconUrl} alt="icône de Github" />
           </a>
         )}
+        </div>
       </div>
       <div className="work-duration">{details.date}</div>
       <ul>

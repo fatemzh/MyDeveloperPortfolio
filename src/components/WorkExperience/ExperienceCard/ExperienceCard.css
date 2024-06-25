@@ -94,18 +94,33 @@
 #preview{
     margin: 0 auto;
     width: 600px;
-    min-height: 360px;
     max-height: 430px;
 }
 
-@media(max-width:768px){
+@media(max-width:500px){
     .work-experience-card{
         margin: 0;
     }
+    .work-technologies{
+        margin: 10px 0;
+        width: 300px;
+    }
+    .work-header{
+        display: flex;
+        flex-direction: column;
+    }
     .work-experience-card h6{
+        margin: 0;
         font-size: 0.95rem;
+    }
+    .work-experience-card p{
+        font-size: 0.8rem;
     }
     .work-experience-card ul li {
         font-size: 0.75rem;
+    }
+    img#preview {
+        width: 330px;
+        height: 250px;
     }
 }

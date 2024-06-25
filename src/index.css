@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
   font-family: "Poppins", sans-serif;
@@ -29,8 +29,10 @@ body {
 
   --neumorphism-light: rgba(255, 255, 255, 0.8);
   --neumorphism-dark: rgba(0, 0, 0, 0.1);
-  --neumorphism-shadow-light: 5px 5px 5px rgba(97, 97, 97, 0.632), -5px -5px 10px rgba(255, 255, 255, 0.3);
-  --neumorphism-shadow-dark: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(56, 56, 56, 0.2);
+  --neumorphism-shadow-light: 5px 5px 5px rgba(97, 97, 97, 0.632),
+    -5px -5px 10px rgba(255, 255, 255, 0.3);
+  --neumorphism-shadow-dark: 5px 5px 10px rgba(0, 0, 0, 0.5),
+    -5px -5px 10px rgba(56, 56, 56, 0.2);
 
   --skill-card-bg-light-hover: #b0b0d3;
   --skill-card-bg-dark-hover: #9d90e765;
@@ -68,7 +70,7 @@ body {
   --contact-bg: var(--contact-bg-light);
   --contact-bg-hover: var(--contact-bg-light-hover);
   --send-btn: var(--send-btn-bg-light);
-  --input-bg: var(--input-bg-light)
+  --input-bg: var(--input-bg-light);
 }
 
 [data-theme="dark"] {
@@ -87,5 +89,5 @@ body {
   --contact-bg: var(--contact-bg-dark);
   --contact-bg-hover: var(--contact-bg-dark-hover);
   --send-btn: var(--send-btn-bg-dark);
-  --input-bg: var(--input-bg-dark)
+  --input-bg: var(--input-bg-dark);
 }

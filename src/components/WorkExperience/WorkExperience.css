@@ -48,30 +48,9 @@
     right: 0rem;
 }
 
-@media (max-width: 768px) {
-    .experience-container{  
-        margin: 10px auto;
-        width: 650px;
-    }
-    .experience-container h5{
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
-    }
-    .arrow-left span,
-   .arrow-right span{
-        background: rgba(55, 54, 112, 0.2);
-        border-radius: 0.65rem;
-        cursor: pointer;
-   }
-   .arrow-left:hover,
-.arrow-right:hover{
-    background: rgba(235, 184, 255, 0.2);
-}
-}
-
-@media (max-width:600px){
+@media (max-width:500px){
     .experience-container{
-        width: 550px;
-        margin: 10px auto;
+        width: 380px;
+        margin: 10px;
     }
 }

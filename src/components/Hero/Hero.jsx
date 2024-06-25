@@ -17,7 +17,7 @@ import Insomnia from "../../assets/images/insomnia.png"
 
 const Hero = () => {
   return (
-    <>
+    <div className='hero-all'>
       <section className='hero' id="Hero">
         <div className='hero-container'>
             <div className='hero-content'>
@@ -89,7 +89,7 @@ const Hero = () => {
             </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 

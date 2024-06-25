@@ -52,47 +52,20 @@
     flex:1;
 }
 
-@media(max-width:1025px){
-    .skills{
-        padding-left: 1rem;
-    }
-    .skills,.skills-content{
-        grid-gap: 2rem;
-    }
-}
-
-@media(max-width:768px){
+@media(max-width:500px){
     .skills-container{
-        width: 650px;
-        margin: 100px auto;
+        width: 400px;
+        margin: 0;
     }
     .skills-content{
-        flex-direction: column;
-        gap: 3rem;
-    }
-    .skills,
-    .skills-info{
-        width: 100%;
-    }
-
-    .skills-info{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        width: 360px;
+        margin: 10px;
+        padding: 10px;
+
     }
     .skills-container h5{
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
-    }
-    .skill-container::after,
-    .skill-container::before{
-        width: 18rem;
-        height: 18rem;
-    }
-}
-
-@media (max-width:600px){
-    .skills-container{
-        width: 550px;
-        padding: 0px;
+        margin: 30px 10px;
     }
 }
