@@ -1,10 +1,7 @@
-import { useContext } from "react";
 import './MobileNav.css';
-import { ThemeContext } from '../../utils/ThemeContext';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo.png'; 
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
 
     const handleMenuClick = (e) => {
         e.stopPropagation();
