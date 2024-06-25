@@ -176,7 +176,6 @@
 
 @media (max-width: 500px) {
   .Contact  {
-    width: 380px;
     margin: 0;
   }
   .Contact .content{
@@ -189,4 +188,9 @@
     font-size: 0.8rem;
     padding: 0px 20px;
   }
+  .Contact .left,
+  .Contact .right {
+    backdrop-filter: none;  
+  }
 }
+
