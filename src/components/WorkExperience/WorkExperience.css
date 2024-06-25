@@ -4,7 +4,6 @@
 }
 
 .experience-container h5{
-    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 3rem;
     margin-left: 40px;
@@ -52,5 +51,8 @@
     .experience-container{
         width: 380px;
         margin: 10px;
+    }
+    .experience-container h5{
+        margin-left: 20px;
     }
 }

@@ -192,5 +192,8 @@
   .Contact .right {
     backdrop-filter: none;  
   }
+  .contact-title h1 {
+    margin-left: 20px;
+  }
 }
 
