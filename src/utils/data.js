@@ -58,6 +58,26 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
+    title: "Runéo Desk",
+    iconUrl: require("../assets/images/github.png"),
+    date: "Mars 2024 - Juin 2024",
+    responsabilities: [
+      "Développement de fonctionnalités CRUD pour gérer les employés dans la base de données, les constituer en groupes et organiser les horaires des groupes via une API REST.",
+      "Développement de composants dynamiques et animés, incluant des fonctionnalités de drag-and-drop pour une manipulation intuitive des éléments.",
+      "Conception et implémentation de modals et d'autres fonctionnalités visuelles avancées pour améliorer l'expérience utilisateur."
+    ],    
+    technologies: [
+      { logo: logoReact, name: "React" },
+      { logo: logoTW, name: "TailwindCSS" },
+      { logo: logoTS, name: "TypeScript" },
+      { logo: logoFigma, name: "Figma" },
+      { logo: logoVite, name: "Vite" },
+    ],
+    githubLink: "https://github.com/fatemzh/",
+    pageLink: "",
+    preview: require("../assets/apps-screens/fyord.png"),
+  },
+  {
     title: "My Kanban Board",
     iconUrl: require("../assets/images/github.png"),
     date: "Novembre 2023 - Février 2024",
