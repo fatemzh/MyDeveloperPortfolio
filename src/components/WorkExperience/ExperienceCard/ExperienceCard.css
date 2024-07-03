@@ -2,7 +2,7 @@
     background: var(--experience-card-bg);
     border-radius: 0.65rem;
     padding: 1.5rem;
-    margin: 0 1rem; 
+    margin: 0 10px; 
     box-shadow: var(--neumorphism-shadow);
 }
 .image-modal-overlay {
@@ -92,9 +92,17 @@
 }
 
 #preview{
-    margin: 0 auto;
-    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px;
+    width: 500px;
     max-height: 430px;
+
+}
+
+.pageLink{
+    text-decoration: none;
+    color: inherit; 
 }
 
 @media(max-width:500px){

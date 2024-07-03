@@ -95,7 +95,7 @@ export const WORK_EXPERIENCE = [
       { logo: logoVite, name: "Vite" },
     ],
     githubLink: "https://github.com/fatemzh/kanbanboard-electron",
-    pageLink: "",
+    pageLink: "https://colorful-kanban.netlify.app",
     preview: require("../assets/apps-screens/kbd.png"),
   },
   {
