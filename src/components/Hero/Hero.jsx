@@ -1,7 +1,6 @@
 import React from "react";
-import Spline from '@splinetool/react-spline';
+import Spline from "@splinetool/react-spline";
 import "./Hero.css";
-import portrait from "../../assets/images/portrait.png";
 import logoHTML from "../../assets/images/html5.png";
 import logoCSS from "../../assets/images/css3.png";
 import logoJS from "../../assets/images/jslogo.png";
@@ -59,14 +58,16 @@ const Hero = () => {
               transforming your ideas into stimulating and engaging web
               experiences.
             </p> */}
-            <a href="../../../public/resume.pdf" download className="download-button">
+            <a
+              href="../../../public/resume.pdf"
+              download
+              className="download-button"
+            >
               My Resume
             </a>
           </div>
           <div className="hero-img">
-            <Spline
-              scene="https://prod.spline.design/5Pih7kjNCz9E2MQs/scene.splinecode" 
-            />
+            <Spline scene="https://prod.spline.design/5Pih7kjNCz9E2MQs/scene.splinecode" />
           </div>
         </div>
         <div className="hero-stack">

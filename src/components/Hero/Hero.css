@@ -136,11 +136,12 @@
 }
 
 .download-button:hover {
-  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.2);
 }
 
 .typewriter-container {
-  width: 500px;;
+  width: 500px;
   display: inline-block;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -183,7 +184,7 @@
     width: 70px;
     height: 80px;
   }
-  .tech-icon img{
+  .tech-icon img {
     width: 40px;
     height: 40px;
   }
