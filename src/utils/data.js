@@ -171,7 +171,7 @@ export const WORK_EXPERIENCE = [
       { logo: logoFigma, name: "Figma" },
     ],
     githubLink: "https://github.com/fatemzh/sunil-portfolio",
-    pageLink: "",
+    pageLink: "https://consultant-template.netlify.app",
     preview: require("../assets/apps-screens/consultat.png"),
   },
   {

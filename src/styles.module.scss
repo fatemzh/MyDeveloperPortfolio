@@ -1,0 +1,47 @@
+.body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+.animated__layers {
+  position: relative;
+  z-index: 1;
+}
+
+.bar__container,
+.bar__container__inverted {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bar {
+  height: 1px;
+  background-color: var(--text-color);
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.full__page {
+  height: 100vh;
+  background-color: var(--bg-color);
+}
