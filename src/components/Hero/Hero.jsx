@@ -1,4 +1,5 @@
 import React from "react";
+import Spline from '@splinetool/react-spline';
 import "./Hero.css";
 import portrait from "../../assets/images/portrait.png";
 import logoHTML from "../../assets/images/html5.png";
@@ -34,9 +35,7 @@ const Hero = () => {
                     "Frontend Development.",
                     "Creating Responsive Designs.",
                     "Building Interactive UIs.",
-                    "Crafting User-Friendly Experiences.",
                     "Developing with React.",
-                    "Implementing Modern CSS Techniques.",
                     "Bringing Designs to Life.",
                     "Improving Accessibility.",
                     "Creating Dynamic Interfaces.",
@@ -60,9 +59,14 @@ const Hero = () => {
               transforming your ideas into stimulating and engaging web
               experiences.
             </p>
+            <a href="../../../public/resume.pdf" download className="download-button">
+              My Resume
+            </a>
           </div>
           <div className="hero-img">
-            <img src={portrait} alt="" />
+            <Spline
+              scene="https://prod.spline.design/5Pih7kjNCz9E2MQs/scene.splinecode" 
+            />
           </div>
         </div>
         <div className="hero-stack">

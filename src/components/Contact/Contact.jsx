@@ -130,7 +130,7 @@ const Contact = () => {
                 </div>
                 <input className="btn-send" type="submit" value="SEND" />
               </form>
-              TODO add animation
+              {/* TODO add animation */}
               {isSent && (
                 <div className="success-message fadeIn">
                   Thank you for your message

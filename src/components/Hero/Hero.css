@@ -9,8 +9,8 @@
 .hero-container::before {
   content: "";
   position: absolute;
-  width: 28.125rem;
-  height: 28.125rem;
+  width: 28rem;
+  height: 22rem;
   border-radius: 28.125rem;
   background: var(--accent-color);
   z-index: -1;
@@ -31,16 +31,24 @@
   flex: 1;
 }
 
-.hero-content h2 {
-  font-size: 3.8rem;
-  font-weight: 600;
-  line-height: 5rem;
-  margin-bottom: 1rem;
+.hero-content h1 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 3rem;
   color: var(--text-color);
 }
 
+.hero-content h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  color: var(--text-color);
+  margin: 0;
+
+}
+
 .hero-content p {
-  width: 80%;
+  width: 70%;
   font-size: 1rem;
   font-weight: 400;
   line-height: 2rem;
@@ -48,24 +56,13 @@
 }
 
 .hero-img {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 5rem;
+  flex: 1.5;
+  height: 700px;
 }
 
 .hero-img > div {
   display: flex;
   align-items: flex-end;
-  gap: 2rem;
-}
-
-.hero-img > div > img {
-  width: 32rem;
-  transition: all 0.3s ease;
-  height: 600px;
 }
 
 .tech-icon {
@@ -124,9 +121,29 @@
   gap: 4rem;
 }
 
+.download-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--neumorphism-background);
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: var(--neumorphism-shadow);
+  transition: all 0.3s ease;
+}
+
+.download-button:hover {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.2);
+}
+
+
 @media (max-width: 500px) {
   .hero-all {
-    width: 390px;
+    width: 400px;
     padding: 0;
   }
 
@@ -145,10 +162,11 @@
     text-align: justify;
     width: 360px;
   }
-  .hero-img img {
-    width: 300px;
-    margin: 0;
+
+  .hero-img {
+    display: none;
   }
+
   .hero-stack {
     width: 400px;
     margin: 0 20px;
@@ -163,5 +181,9 @@
   .tech-icon img{
     width: 40px;
     height: 40px;
+  }
+  .download-button {
+    display: flex;
+    justify-content: center;
   }
 }
