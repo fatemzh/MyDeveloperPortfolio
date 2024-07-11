@@ -6,6 +6,8 @@ import logoCSS from "../../assets/images/css3.png";
 import logoJS from "../../assets/images/jslogo.png";
 import logoTS from "../../assets/images/ts.png";
 import logoReact from "../../assets/images/react.png";
+import logoRedux from "../../assets/images/redux.png";
+import logoRouter from "../../assets/images/router.png";
 import logoTW from "../../assets/images/tailwindCSS.png";
 import logoGit from "../../assets/images/git-logo.png";
 import logoPhp from "../../assets/images/php.png";
@@ -57,6 +59,14 @@ const Hero = () => {
             <div className="tech-icon">
               <img src={logoReact} alt="" />
               <p>React</p>
+            </div>
+            <div className="tech-icon">
+              <img src={logoRouter} alt="" />
+              <p>React Router</p>
+            </div>
+            <div className="tech-icon">
+              <img src={logoRedux} alt="" /> 
+              <p>React Router</p>
             </div>
             <div className="tech-icon">
               <img src={logoTW} alt="" />
