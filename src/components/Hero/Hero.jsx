@@ -16,6 +16,7 @@ import logoNode from "../../assets/images/nodejs.png";
 import logoElectron from "../../assets/images/electron.png";
 import logoMySQL from "../../assets/images/mysql.png";
 import Insomnia from "../../assets/images/insomnia.png";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -23,7 +24,34 @@ const Hero = () => {
       <section className="hero" id="Hero">
         <div className="hero-container">
           <div className="hero-content">
-            <h2>Abid Fatima Développeuse Frontend</h2>
+            <h1>
+              Hi, I’m <span>Abid Fatima and I'm dedicated to</span>
+            </h1>
+            <h2>
+              <span>
+                <Typewriter
+                  words={[
+                    "Frontend Development.",
+                    "Creating Responsive Designs.",
+                    "Building Interactive UIs.",
+                    "Crafting User-Friendly Experiences.",
+                    "Developing with React.",
+                    "Implementing Modern CSS Techniques.",
+                    "Bringing Designs to Life.",
+                    "Improving Accessibility.",
+                    "Creating Dynamic Interfaces.",
+                    "Innovating in Web Design.",
+                    "Enhancing User Interactions.",
+                  ]}
+                  loop
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={60}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
+            </h2>
             <br />
             <p>
               My mission: to provide you with tailor-made web solutions that not
@@ -65,7 +93,7 @@ const Hero = () => {
               <p>React Router</p>
             </div>
             <div className="tech-icon">
-              <img src={logoRedux} alt="" /> 
+              <img src={logoRedux} alt="" />
               <p>React Router</p>
             </div>
             <div className="tech-icon">
