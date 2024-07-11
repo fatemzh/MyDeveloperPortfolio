@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# My Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my developer portfolio! This project showcases my skills, projects, and contact information as a frontend developer.
 
-## Available Scripts
+![portfolio](https://github.com/fatemzh/MyDeveloperPortfolio/assets/130862827/a43069a3-f350-48cf-8447-fcd9e9e85416)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About Me](#about-me)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About Me
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Hi, I'm Abid Fatima, a passionate frontend developer dedicated to crafting engaging and user-friendly web experiences. My mission is to provide you with tailor-made web solutions that captivate your visitors and boost your online presence.
 
-### `npm test`
+## Skills
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here are some of the technologies and tools I work with:
 
-### `npm run build`
+- HTML5
+- CSS3 / TailwindCSS
+- JavaScript / TypeScript
+- ReactJS, Router, Redux
+- NodeJS
+- PHP
+- MySQL
+- Git & GitHub
+- Npm
+- Figma
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. [Runéo Desk](https://github.com/fatemzh/)
+- **Duration**: March 2024 - June 2024
+- **Description**: Developed CRUD functionalities for employee management and group scheduling via a REST API. Implemented dynamic components and advanced visual features.
+- **Technologies**: React, TailwindCSS, TypeScript, Figma, Vite
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. [My Kanban Board](https://github.com/fatemzh/kanbanboard-electron)
+- **Duration**: November 2023 - February 2024
+- **Description**: Created a customizable task management application with drag-and-drop functionality and a lightweight design optimized for limited storage devices.
+- **Technologies**: React, TailwindCSS, TypeScript, Electron, Figma, Vite
+- **Live Demo**: [colorful-kanban.netlify.app](https://colorful-kanban.netlify.app)
 
-### `npm run eject`
+### 3. [Developer Portfolio](https://github.com/fatemzh/my-react-portfolio/tree/main)
+- **Duration**: February 2024
+- **Description**: Designed a responsive and dynamic portfolio website to showcase projects, skills, and contact information.
+- **Technologies**: React, TailwindCSS, Figma, Vite
+- **Live Demo**: [fatimabid.netlify.app](https://fatimabid.netlify.app)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 4. [Share With Me - Reading Community](https://github.com/fatemzh/Book-blog)
+- **Duration**: November 2023 - December 2023
+- **Description**: Developed a community platform for book enthusiasts to publish and review books, with user authentication and content management features.
+- **Technologies**: HTML5, CSS3, PHP, MySQL, Figma
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5. [Pokemon API REST](https://github.com/fatemzh/NODE-POKEMON-API)
+- **Duration**: October 2023
+- **Description**: Created a RESTful API for retrieving Pokémon information using Node.js and Express, with token-based authentication.
+- **Technologies**: Node.js, JavaScript, Insomnia
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 6. [Consultant Portfolio](https://github.com/fatemzh/sunil-portfolio)
+- **Duration**: September 2023
+- **Description**: Built a professional platform for showcasing consulting services, with easy content management and responsive design.
+- **Technologies**: React, TailwindCSS, Vite, Figma
+- **Live Demo**: [consultant-template.netlify.app](https://consultant-template.netlify.app)
+  
+### 7. [Pac-Man Console Game](https://github.com/cyberkathleen/pacman-made-simple)
+- **Duration**: March 2023 - May 2023
+- **Description**: Adapted the classic Pac-Man game for console using C#, with key gameplay features and scoring system.
+- **Technologies**: C#, Figma
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 8. [ETML Open Days Website](https://github.com/fatemzh/PO-ETML)
+- **Duration**: September 2022 - November 2022
+- **Description**: Developed a website for ETML's open days, featuring career opportunities, responsive contact forms, and educational infographics.
+- **Technologies**: HTML5, TailwindCSS, JavaScript, PHP, Figma
+- **Live Demo**: [fatemzh.github.io/PO-ETML](https://fatemzh.github.io/PO-ETML/)
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to reach out to me for any collaboration, consultation, or web development inquiries:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Phone**: (+41) 76 606 89 45
+- **Email**: [abidfatem@gmail.com](mailto:abidfatem@gmail.com)
+- **LinkedIn**: [Fatima Abid](https://www.linkedin.com/in/fatima-abid-91b200196/)
+- **GitHub**: [@fatemzh](https://github.com/fatemzh)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
