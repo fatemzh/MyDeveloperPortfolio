@@ -35,7 +35,7 @@ export const SKILLS = [
     ],
   },
   {
-    title: "Outils",
+    title: "Tools",
     iconUrl: require("../assets/images/tools.png"),
     skills: [
       { skill: "Git & Github", percentage: "90%" },
@@ -48,10 +48,10 @@ export const SKILLS = [
     title: "Soft Skills",
     iconUrl: require("../assets/images/softSkill.png"),
     skills: [
-      { skill: "Résolution de problèmes", percentage: "90%" },
-      { skill: "Travail d'équipe", percentage: "90%" },
-      { skill: "Gestion du temps", percentage: "90%" },
-      { skill: "Empathie et compréhension utilisateur", percentage: "90%" },
+      { skill: "Problem Solving", percentage: "90%" },
+      { skill: "Teamwork", percentage: "90%" },
+      { skill: "Time Management", percentage: "90%" },
+      { skill: "Empathy and User Understanding", percentage: "90%" },
     ],
   },
 ];
@@ -60,12 +60,12 @@ export const WORK_EXPERIENCE = [
   {
     title: "Runéo Desk",
     iconUrl: require("../assets/images/github.png"),
-    date: "Mars 2024 - Juin 2024",
+    date: "March 2024 - June 2024",
     responsabilities: [
-      "Développement de fonctionnalités CRUD pour gérer les employés dans la base de données, les constituer en groupes et organiser les horaires des groupes via une API REST.",
-      "Développement de composants dynamiques et animés, incluant des fonctionnalités de drag-and-drop pour une manipulation intuitive des éléments.",
-      "Conception et implémentation de modals et d'autres fonctionnalités visuelles avancées pour améliorer l'expérience utilisateur."
-    ],    
+      "Developed CRUD functionalities to manage employees in the database, group them, and organize group schedules via a REST API.",
+      "Developed dynamic and animated components, including drag-and-drop features for intuitive element manipulation.",
+      "Designed and implemented modals and other advanced visual features to enhance user experience."
+    ],
     technologies: [
       { logo: logoReact, name: "React" },
       { logo: logoTW, name: "TailwindCSS" },
@@ -80,11 +80,11 @@ export const WORK_EXPERIENCE = [
   {
     title: "My Kanban Board",
     iconUrl: require("../assets/images/github.png"),
-    date: "Novembre 2023 - Février 2024",
+    date: "November 2023 - February 2024",
     responsabilities: [
-      "Développement d'une application de gestion de tâches personnalisable, offrant des fonctionnalités de drag-and-drop pour une organisation intuitive des tâches.",
-      "Conception légère et performante, optimisée pour une utilisation sur des dispositifs à capacité de stockage limitée comme un SSD d'étudiant.",
-      "Mise en place d'une interface utilisateur épurée et facile à utiliser, permettant une gestion efficace des projets personnels et académiques.",
+      "Developed a customizable task management application, offering drag-and-drop features for intuitive task organization.",
+      "Designed a lightweight and performant application, optimized for use on devices with limited storage capacity such as a student's SSD.",
+      "Implemented a clean and user-friendly interface, allowing efficient management of personal and academic projects.",
     ],
     technologies: [
       { logo: logoReact, name: "React" },
@@ -99,13 +99,13 @@ export const WORK_EXPERIENCE = [
     preview: require("../assets/apps-screens/kbd.png"),
   },
   {
-    title: "Portfolio pour développeur",
+    title: "Developer Portfolio",
     iconUrl: require("../assets/images/github.png"),
-    date: "Février 2024",
+    date: "February 2024",
     responsabilities: [
-      "Conception d'une interface utilisateur fluide, réactive et adaptée à tous les appareils, offrant une expérience de navigation optimale.",
-      "Intégration d'une galerie de projets dynamique avec des animations subtiles pour mettre en valeur les travaux réalisés.",
-      "Mise en place d'un formulaire de prise de contact facilitant la communication directe avec les visiteurs.",
+      "Designed a smooth, responsive user interface suitable for all devices, providing an optimal browsing experience.",
+      "Integrated a dynamic project gallery with subtle animations to showcase completed works.",
+      "Implemented a contact form to facilitate direct communication with visitors.",
     ],
     technologies: [
       { logo: logoReact, name: "React" },
@@ -118,13 +118,13 @@ export const WORK_EXPERIENCE = [
     preview: require("../assets/apps-screens/dvpportfolio.png"),
   },
   {
-    title: "Application Share With Me pour les férus de Lecture",
-    date: "Novembre 2023 - Décembre 2023",
+    title: "Share With Me App for Book Lovers",
+    date: "November 2023 - December 2023",
     iconUrl: require("../assets/images/github.png"),
     responsabilities: [
-      "Création d'une plateforme communautaire pour la publication et l'évaluation de livres, avec des espaces dédiés pour les critiques.",
-      "Implémentation d'un système de gestion des utilisateurs avec authentification, permettant une administration sécurisée du contenu et un accès personnalisé.",
-      "Intégration d'une base de données pour le stockage et la récupération efficace des informations sur les livres, auteurs et utilisateurs.",
+      "Created a community platform for publishing and reviewing books, with dedicated spaces for critiques.",
+      "Implemented a user management system with authentication, allowing secure content administration and personalized access.",
+      "Integrated a database for efficient storage and retrieval of information on books, authors, and users.",
     ],
     technologies: [
       { logo: logoHTML, name: "HTML5" },
@@ -138,13 +138,13 @@ export const WORK_EXPERIENCE = [
     preview: require("../assets/apps-screens/book.png"),
   },
   {
-    title: "Application Pokemon API REST",
-    date: "Octobre 2023",
+    title: "Pokemon REST API Application",
+    date: "October 2023",
     iconUrl: require("../assets/images/github.png"),
     responsabilities: [
-      "Développement d'une API RESTful pour la consultation d'informations sur les Pokémon, utilisant Node.js et Express pour une performance optimale.",
-      "Mise en œuvre de endpoints API bien structurés pour une récupération facile et rapide des données Pokémon, facilitant l'intégration avec d'autres applications.",
-      "Sécurisation de l'API avec une authentification par token pour assurer une interface fiable et sécurisée.",
+      "Developed a RESTful API to query Pokémon information using Node.js and Express for optimal performance.",
+      "Implemented well-structured API endpoints for easy and fast retrieval of Pokémon data, facilitating integration with other applications.",
+      "Secured the API with token-based authentication to ensure a reliable and secure interface.",
     ],
     technologies: [
       { logo: logoNode, name: "Node.js" },
@@ -156,13 +156,13 @@ export const WORK_EXPERIENCE = [
     preview: "",
   },
   {
-    title: "Portfolio pour consultant",
+    title: "Consultant Portfolio",
     date: "September 2023",
     iconUrl: require("../assets/images/github.png"),
     responsabilities: [
-      "Développement d'une plateforme personnalisée pour présenter ses services de consultation, avec une mise en page épurée et professionnelle.",
-      "Création d'un système de gestion de contenu permettant une mise à jour facile des œuvres et des articles, facilitant la maintenance du site.",
-      "Implémentation de composants réactifs et responsive pour une expérience utilisateur cohérente sur mobiles et ordinateurs.",
+      "Developed a personalized platform to showcase consulting services with a clean and professional layout.",
+      "Created a content management system for easy updating of works and articles, facilitating site maintenance.",
+      "Implemented reactive and responsive components for a consistent user experience on mobile and desktop devices.",
     ],
     technologies: [
       { logo: logoReact, name: "React" },
@@ -175,13 +175,13 @@ export const WORK_EXPERIENCE = [
     preview: require("../assets/apps-screens/consultat.png"),
   },
   {
-    title: "Jeu Pac-Man en mode console",
-    date: "Mars 2023 - Mai 2023",
+    title: "Pac-Man Console Game",
+    date: "March 2023 - May 2023",
     iconUrl: require("../assets/images/github.png"),
     responsabilities: [
-      "Adaptation du classique Pac-Man en C# pour console, offrant une expérience de jeu simplifiée tout en respectant l'esprit et les défis du jeu original dans un environnement minimaliste.",
-      "Gestion des fonctionnalités clés du jeu, y compris les mouvements des personnages et le système de scoring.",
-      "Fourniture d'une version exécutable du jeu, facilitant le partage et l'accès au jeu pour les passionnés de rétro-gaming, sans prérequis d'installation de logiciels supplémentaires.",
+      "Adapted the classic Pac-Man game in C# for console, offering a simplified gaming experience while maintaining the spirit and challenges of the original game in a minimalist environment.",
+      "Managed key game functionalities, including character movements and the scoring system.",
+      "Provided an executable version of the game, facilitating sharing and access to the game for retro-gaming enthusiasts without requiring additional software installations.",
     ],
     technologies: [{ logo: logoC }, { logo: logoFigma, name: "Figma" }],
     githubLink: "https://github.com/cyberkathleen/pacman-made-simple",
@@ -189,13 +189,13 @@ export const WORK_EXPERIENCE = [
     preview: require("../assets/apps-screens/pacman.png"),
   },
   {
-    title: "Site pour les Portes Ouvertes 2022 de l'ETML",
-    date: "Septembre 2022 - Novembre 2022",
+    title: "Website for ETML Open Days 2022",
+    date: "September 2022 - November 2022",
     iconUrl: require("../assets/images/github.png"),
     responsabilities: [
-      "Développement de sections dédiées aux débouchés professionnels offerts par la formation en informatique, fournissant des explications claires pour inspirer les futurs apprentis.",
-      "Mise en place d'un formulaire de contact responsive pour permettre aux visiteurs de poser des questions ou de demander des informations supplémentaires, assurant une interaction facile sur n'importe quel appareil.",
-      "Intégration d'infographies pour illustrer les parcours d'études en informatique, les compétences acquises et les conditions d'admissibilité.",
+      "Developed sections dedicated to the professional opportunities offered by IT training, providing clear explanations to inspire future apprentices.",
+      "Implemented a responsive contact form to allow visitors to ask questions or request additional information, ensuring easy interaction on any device.",
+      "Integrated infographics to illustrate IT study paths, acquired skills, and admission requirements.",
     ],
     technologies: [
       { logo: logoHTML, name: "HTML5" },

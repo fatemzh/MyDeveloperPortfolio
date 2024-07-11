@@ -31,7 +31,7 @@ const ExperienceCard = ({ details }) => {
       </ul>
       {details.pageLink && (
         <p>
-          <a href={details.pageLink} className="pageLink">Visiter la page ➡️ 💻</a>
+          <a href={details.pageLink} className="pageLink">Démonstration ➡️ 💻</a>
         </p>
       )}
       {details.preview && (

@@ -20,13 +20,13 @@ const Navbar = () => {
                     <img className="logo" src={logo} alt="" />
                     <ul>
                         <li>
-                            <a className="menu-item" href="#Hero" id="#Hero">Accueil</a>
+                            <a className="menu-item" href="#Hero" id="#Hero">Home</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="#Skills">Compétences</a>
+                            <a className="menu-item" href="#Skills">Skills</a>
                         </li>
                         <li>
-                            <a className="menu-item" href="#WorkExperience">Projets</a>
+                            <a className="menu-item" href="#WorkExperience">Projects</a>
                         </li>
                         <li>
                             <a className="menu-item" href="#Contact">Contact</a>

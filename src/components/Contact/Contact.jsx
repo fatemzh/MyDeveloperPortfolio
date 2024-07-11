@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
-import {useState} from 'react';
 
 emailjs.init("uSLQ-e9tt3NiI_otd");
 
@@ -20,14 +19,14 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log('SUCCESS!', result.text);
+          console.log("SUCCESS!", result.text);
           setIsSent(true);
-          form.current.reset();  
-          setTimeout(() => setIsSent(false), 3000); 
+          form.current.reset();
+          setTimeout(() => setIsSent(false), 3000);
         },
         (error) => {
-          console.log('FAILED...', error.text);
-          alert('Failed to send the message. Please try again.');
+          console.log("FAILED...", error.text);
+          alert("Failed to send the message. Please try again.");
         }
       );
   };
@@ -41,16 +40,15 @@ const Contact = () => {
           </div>
           <div className="content">
             <div className="left">
-              <div className="box box_shodow">
+              <div className="box box_shadow">
                 <div className="details">
                   <h1>Abid Fatima</h1>
-                  <h2>Developer Frontend</h2>
+                  <h2>Frontend Developer</h2>
                   <p>
-                    Je suis disponible pour des projets en freelance. N'hésitez
-                    pas à me contacter pour toute collaboration, consultation ou
-                    expertise web en me contactant par email ou téléphone.
-                    Discutons ensemble de vos besoins et de la manière dont je
-                    peux vous aider à réaliser vos objectifs.
+                    I am available for freelance projects. Feel free to contact
+                    me for any collaboration, consultation, or web expertise by
+                    reaching out via email or phone. Let's discuss your needs
+                    and how I can help you achieve your goals.
                   </p>
                   <div className="phone">
                     <svg
@@ -119,7 +117,7 @@ const Contact = () => {
             <div className="right">
               <form onSubmit={sendEmail} ref={form}>
                 <div className="input">
-                  <span>NOM</span>
+                  <span>NAME</span>
                   <input type="text" name="user_name" />
                 </div>
                 <div className="input">
@@ -130,9 +128,13 @@ const Contact = () => {
                   <span>MESSAGE </span>
                   <textarea name="message"></textarea>
                 </div>
-                <input className="btn-send" type="submit" value="ENVOYER" />
+                <input className="btn-send" type="submit" value="SEND" />
               </form>
-              {isSent && <div className="success-message fadeIn">Merci pour votre message</div>}
+              {isSent && (
+                <div className="success-message fadeIn">
+                  Thank you for your message
+                </div>
+              )}
             </div>
           </div>
         </div>
