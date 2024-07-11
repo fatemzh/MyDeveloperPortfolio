@@ -115,7 +115,7 @@ export const WORK_EXPERIENCE = [
     ],
     githubLink: "https://github.com/fatemzh/my-react-portfolio/tree/main",
     pageLink: "",
-    preview: require("../assets/apps-screens/dvpportfolio.png"),
+    preview: require("../assets/apps-screens/portfolio.png"),
   },
   {
     title: "Share With Me App for Book Lovers",
