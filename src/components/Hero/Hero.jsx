@@ -29,7 +29,7 @@ const Hero = () => {
               Hi, I’m <span>Abid Fatima and I'm dedicated to</span>
             </h1>
             <h2>
-              <span>
+              <span className="typewriter-container">
                 <Typewriter
                   words={[
                     "Frontend Development.",
@@ -52,13 +52,13 @@ const Hero = () => {
               </span>
             </h2>
             <br />
-            <p>
+            {/* <p>
               My mission: to provide you with tailor-made web solutions that not
               only captivate your visitors but also boost your online presence.
               By collaborating with me, you are choosing a partner dedicated to
               transforming your ideas into stimulating and engaging web
               experiences.
-            </p>
+            </p> */}
             <a href="../../../public/resume.pdf" download className="download-button">
               My Resume
             </a>

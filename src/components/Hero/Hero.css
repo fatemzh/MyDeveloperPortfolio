@@ -44,7 +44,6 @@
   line-height: 5rem;
   color: var(--text-color);
   margin: 0;
-
 }
 
 .hero-content p {
@@ -140,6 +139,12 @@
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.2);
 }
 
+.typewriter-container {
+  width: 500px;;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 @media (max-width: 500px) {
   .hero-all {
@@ -185,5 +190,15 @@
   .download-button {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .typewriter-container {
+    width: 360px;
+    height: 160px;
+    display: inline-block;
+    white-space: wrap;
+    text-overflow: ellipsis;
   }
 }
