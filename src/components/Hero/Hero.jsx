@@ -59,7 +59,7 @@ const Hero = () => {
               experiences.
             </p> */}
             <a
-              href="../../../public/resume.pdf"
+              href="/resume.pdf"
               download
               className="download-button"
             >
