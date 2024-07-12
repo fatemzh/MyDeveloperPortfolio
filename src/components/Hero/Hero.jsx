@@ -32,11 +32,11 @@ const Hero = () => {
                 <Typewriter
                   words={[
                     "Frontend Development.",
-                    "Creating Responsive Designs.",
+                    "Crafting Responsive Designs.",
                     "Building Interactive UIs.",
-                    "Developing with React.",
+                    "Developing with Passion.",
                     "Bringing Designs to Life.",
-                    "Improving Accessibility.",
+                    "Improving Web Accessibility.",
                     "Creating Dynamic Interfaces.",
                     "Innovating in Web Design.",
                     "Enhancing User Interactions.",
@@ -51,13 +51,6 @@ const Hero = () => {
               </span>
             </h2>
             <br />
-            {/* <p>
-              My mission: to provide you with tailor-made web solutions that not
-              only captivate your visitors but also boost your online presence.
-              By collaborating with me, you are choosing a partner dedicated to
-              transforming your ideas into stimulating and engaging web
-              experiences.
-            </p> */}
             <a
               href="/resume.pdf"
               download

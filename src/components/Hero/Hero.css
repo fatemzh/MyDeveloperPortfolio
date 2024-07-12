@@ -142,9 +142,11 @@
 
 .typewriter-container {
   width: 500px;
+  height: 170px;
   display: inline-block;
-  white-space: nowrap;
+  white-space: wrap;
   text-overflow: ellipsis;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 500px) {
