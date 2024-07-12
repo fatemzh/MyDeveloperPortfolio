@@ -1,69 +1,73 @@
-.skills-container{
-    margin: 100px 200px 100px 250px;
-    position: relative;
+.skills-container {
+  margin: 100px 200px 100px 250px;
+  position: relative;
 }
 
 .skills-container::after,
-.skills-container::before{
-    content: " ";
-    width: 28rem;
-    height: 28rem;
-    border-radius: 28.125rem;
-    background: #7c66e3;
-    position: absolute;
-    z-index: -1;
-    filter: blur(200px);
+.skills-container::before {
+  content: " ";
+  width: 28rem;
+  height: 28rem;
+  border-radius: 28.125rem;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(200px);
 }
 
-.skills-container::after{
-    top:-3rem;
-    left:-5rem;
+.skills-container::after {
+  top: -3rem;
+  left: -5rem;
 }
 
-.skills-container::before{
-    background:#9e51b9;
-    bottom: 0rem;
-    right: 0rem;
+.skills-container::before {
+  background: #9e51b9;
+  bottom: 0rem;
+  right: 0rem;
 }
 
-.skills-container h5{
-    margin-bottom: 3.5rem;
+.skills-container h5 {
+  margin-bottom: 3.5rem;
 }
 
-.skills-content{
-    display: flex;
-    align-items: space-between;
-    justify-content: center;
+.skills-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 4.5rem;
+}
+
+.skills {
+  flex: 1;
+  display: grid;
+  grid-gap: 3.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.skills-info {
+  flex: 1;
+}
+
+.skills .skill-card[role="button"]:focus {
+  outline: 2px solid #ffd700;
+  outline-offset: 4px;
+}
+
+@media (max-width: 500px) {
+  .skills-container {
     width: 100%;
-    gap:4rem;
-}
-
-.skills{
-    flex: 1;
-    display: grid;
-    grid-gap: 5rem;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-}
-
-.skills-info{
-    flex:1;
-}
-
-@media(max-width:500px){
-    .skills-container{
-        width: 400px;
-        margin: 0;
-    }
-    .skills-content{
-        display: flex;
-        flex-direction: column;
-        width: 360px;
-        margin: 10px;
-        padding: 10px;
-
-    }
-    .skills-container h5{
-        margin: 80px 0px 30px 20px;
-    }
+    margin: 0;
+    padding: 30px;
+  }
+  .skills-content {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    gap: 2.5rem;
+  }
+  .skills-container h5 {
+    margin: 80px 0 30px 0;
+    text-align: center;
+  }
 }

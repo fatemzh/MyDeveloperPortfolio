@@ -64,7 +64,7 @@ export const WORK_EXPERIENCE = [
     responsabilities: [
       "Developed CRUD functionalities to manage employees in the database, group them, and organize group schedules via a REST API.",
       "Developed dynamic and animated components, including drag-and-drop features for intuitive element manipulation.",
-      "Designed and implemented modals and other advanced visual features to enhance user experience."
+      "Designed and implemented modals and other advanced visual features to enhance user experience.",
     ],
     technologies: [
       { logo: logoReact, name: "React" },

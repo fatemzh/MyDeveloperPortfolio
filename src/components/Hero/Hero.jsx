@@ -51,11 +51,7 @@ const Hero = () => {
               </span>
             </h2>
             <br />
-            <a
-              href="/resume.pdf"
-              download
-              className="download-button"
-            >
+            <a href="/resume.pdf" download className="download-button">
               My Resume
             </a>
           </div>
@@ -66,66 +62,32 @@ const Hero = () => {
         <div className="hero-stack">
           <h5>Tech stack</h5>
           <div className="stack-icons">
-            <div className="tech-icon">
-              <img src={logoHTML} alt="" />
-              <p>HTML5</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoCSS} alt="" />
-              <p>CSS3</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoJS} alt="" />
-              <p>JavaScript</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoTS} alt="" />
-              <p>TypeScript</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoReact} alt="" />
-              <p>React</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoRouter} alt="" />
-              <p>React Router</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoRedux} alt="" />
-              <p>React Router</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoTW} alt="" />
-              <p>TailwindCSS</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoElectron} alt="" />
-              <p>Electron</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoGit} alt="" />
-              <p>Git</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoNPM} alt="" />
-              <p>NPM</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoPhp} alt="" />
-              <p>PHP</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoNode} alt="" />
-              <p>NodeJS</p>
-            </div>
-            <div className="tech-icon">
-              <img src={logoMySQL} alt="" />
-              <p>MySQL</p>
-            </div>
-            <div className="tech-icon">
-              <img src={Insomnia} alt="" />
-              <p>Insomnia</p>
-            </div>
+            {[
+              { src: logoHTML, alt: "HTML5 logo", name: "HTML5" },
+              { src: logoCSS, alt: "CSS3 logo", name: "CSS3" },
+              { src: logoJS, alt: "JavaScript logo", name: "JavaScript" },
+              { src: logoTS, alt: "TypeScript logo", name: "TypeScript" },
+              { src: logoReact, alt: "React logo", name: "React" },
+              {
+                src: logoRouter,
+                alt: "React Router logo",
+                name: "React Router",
+              },
+              { src: logoRedux, alt: "Redux logo", name: "Redux" },
+              { src: logoTW, alt: "TailwindCSS logo", name: "TailwindCSS" },
+              { src: logoElectron, alt: "Electron logo", name: "Electron" },
+              { src: logoGit, alt: "Git logo", name: "Git" },
+              { src: logoNPM, alt: "NPM logo", name: "NPM" },
+              { src: logoPhp, alt: "PHP logo", name: "PHP" },
+              { src: logoNode, alt: "NodeJS logo", name: "NodeJS" },
+              { src: logoMySQL, alt: "MySQL logo", name: "MySQL" },
+              { src: Insomnia, alt: "Insomnia logo", name: "Insomnia" },
+            ].map((tech, index) => (
+              <div className="tech-icon" key={index}>
+                <img src={tech.src} alt={tech.alt} />
+                <p>{tech.name}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

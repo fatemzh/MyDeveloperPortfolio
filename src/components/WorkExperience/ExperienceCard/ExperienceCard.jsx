@@ -6,38 +6,43 @@ const ExperienceCard = ({ details }) => {
       <div className="work-header">
         <h6>{details.title}</h6>
         <div className="work-technologies">
-          {details.technologies.map((tech, index) => {
-            return tech.logo ? (
-              <img
-                key={index}
-                src={tech.logo}
-                alt={tech.name}
-                style={{ width: "30px", height: "30px" }}
-              />
-            ) : null;
-          })}
+          {details.technologies &&
+            details.technologies.map((tech, index) => {
+              return tech.logo ? (
+                <img
+                  key={index}
+                  src={tech.logo}
+                  alt={`${tech.name} logo`}
+                  width="30"
+                  height="30"
+                />
+              ) : null;
+            })}
           {details.githubLink && (
-          <a href={details.githubLink}>
-            <img src={details.iconUrl} alt="icône de Github" />
-          </a>
-        )}
+            <a href={details.githubLink} aria-label="GitHub repository">
+              <img src={details.iconUrl} alt="GitHub icon" />
+            </a>
+          )}
         </div>
       </div>
       <div className="work-duration">{details.date}</div>
       <ul>
-        {details.responsabilities.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
+        {details.responsabilities &&
+          details.responsabilities.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
       </ul>
       {details.pageLink && (
         <p>
-          <a href={details.pageLink} className="pageLink">Démonstration ➡️ 💻</a>
+          <a href={details.pageLink} className="pageLink">
+            Demonstration ➡️ 💻
+          </a>
         </p>
       )}
       {details.preview && (
         <img
           src={details.preview}
-          alt="screenshot of the project"
+          alt="Screenshot of the project"
           id="preview"
         />
       )}

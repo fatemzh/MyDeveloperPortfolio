@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-h5{
+h5 {
   font-size: 2rem;
 }
 :root {
@@ -53,8 +53,8 @@ h5{
   --input-bg-light: rgba(162, 179, 234, 0.442);
   --input-bg-dark: rgba(124, 101, 162, 0.5);
 
-  --send-btn-bg-light: #971f1f;
-  --send-btn-bg-dark: #ffffff;
+  --send-btn-bg-light: #8ce0ff;
+  --send-btn-bg-dark: #3218a3;
 }
 
 [data-theme="light"] {
