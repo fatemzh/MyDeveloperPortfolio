@@ -9,7 +9,7 @@ import logoReact from "../../assets/images/react.png";
 import logoRedux from "../../assets/images/redux.png";
 import logoRouter from "../../assets/images/router.png";
 import logoTW from "../../assets/images/tailwindCSS.png";
-import logoGit from "../../assets/images/git-logo.png";
+import logoGit from "../../assets/images/git.png";
 import logoPhp from "../../assets/images/php.png";
 import logoNPM from "../../assets/images/npm.png";
 import logoNode from "../../assets/images/nodejs.png";
